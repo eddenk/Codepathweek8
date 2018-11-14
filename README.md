@@ -51,4 +51,27 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 3.	View feedback, and the user with alerted.
 
 
+## Red
+
+**Vulnerability #1: IDOR Attack**
+<img src="https://github.com/eddenk/Codepathweek8/blob/master/IDOR_Attack.gif" alt="IDOR_Attack" title="IDOR_Attack" />
+**Walkthrough:**
+1.	When you are on the “Find a Salesperson” section of the site, there is a query string of an id parameter which is exploitable.
+Ex: ?id=9
+2.	Change the id parameter until you find information that should not be accessible. 
+
+**Vulnerability #2: CSRF Attack**
+<img src="https://github.com/eddenk/Codepathweek8/blob/master/CSRF_Attack.gif" alt="CSRF_Attack" title="CSRF_Attack" />
+**Walkthrough:**
+1.	Vulnerability in the user’s section of Globitek Red
+2.	Go to a user’s page, and inspect the page source
+3.	Create a new HTML file using the same edit form and resubmit it without using a csrf token.
+4.	Open the vulnerable html file and update the user information, and it will change the user information directly on the website. 
+
+
+
+## Notes
+
+Describe any challenges encountered while doing the work
+
 

@@ -15,8 +15,7 @@ The six possible exploits are:
 Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
 
 ## Blue
-
-[x]**Vulnerability #1: SQL Injection Attack**
+(x)**Vulnerability #1: SQL Injection Attack**
  <img src="https://github.com/eddenk/Codepathweek8/blob/master/SQL_Injection.gif" alt="SQL_Injection" title="SQL_Injection" />
 **Walkthrough:**
 1.	Go to any salepersons profile (for example: ex. /blue/public/staff/salespeople/show.php?id=9)

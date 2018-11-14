@@ -23,8 +23,21 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 
 
-[x]**Vulnerability #2: Session Hijacking Attack**
+**Vulnerability #2: Session Hijacking Attack**
 <img src="https://github.com/eddenk/Codepathweek8/blob/master/Session_Hijacking.gif" alt="Session_Hijacking" title="Session_Hijacking" />
 **Walkthrough:**
 1.	An unknown user(attacker) changes the PHPSESSION of the site. (using: https://35.184.88.145/blue/public/hacktools/change_session_id.php)
 2.	When the admin is logged in, attacker is able to steal the session if of the admin using the /hackertool/ and is able to bypass the need for logging in with a username and password.
+
+
+
+## Green
+
+**Vulnerability #1: Enumeration Attack**
+<img src="https://github.com/eddenk/Codepathweek8/blob/master/Enumeration_Attack.gif" alt="Enumeration_Attack" title="Enumeration_Attack" />
+Walkthrough:
+1.	Try and login and type a username that you know exists on the database, logging in with the wrong password.
+2.	Now, attempt to login for a user that you don’t know if it exits on the database.
+3.	A username that exists on the database with the wrong password will be printed in **bold**
+4.	But, a username that does exist with the wrong password inputted will not be in bold.
+

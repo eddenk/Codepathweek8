@@ -35,9 +35,20 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 **Vulnerability #1: Enumeration Attack**
 <img src="https://github.com/eddenk/Codepathweek8/blob/master/Enumeration_Attack.gif" alt="Enumeration_Attack" title="Enumeration_Attack" />
-Walkthrough:
+**Walkthrough:**
 1.	Try and login and type a username that you know exists on the database, logging in with the wrong password.
 2.	Now, attempt to login for a user that you don’t know if it exits on the database.
 3.	A username that exists on the database with the wrong password will be printed in **bold**
 4.	But, a username that does exist with the wrong password inputted will not be in bold.
+
+
+**Vulnerability #2: Stored Cross Site Scripting Attack**
+<img src="https://github.com/eddenk/Codepathweek8/blob/master/XSS_Attack.gif" alt="XSS_Attack" title="XSS_Attack" />
+**Walkthrough:**
+1.	Go to the Contact Form of the website and write feedback with the following script in the comment section
+<script>alert(‘Edden found the XSS!’)</script>
+2.	Log into the site
+3.	View feedback, and the user with alerted.
+
+
 

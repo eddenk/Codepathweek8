@@ -16,16 +16,16 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: SQL Injection Attack
+[x]**Vulnerability #1: SQL Injection Attack**
  <img src="https://github.com/eddenk/Codepathweek8/blob/master/SQL_Injection.gif" alt="SQL_Injection" title="SQL_Injection" />
-Walkthrough:
+**Walkthrough:**
 1.	Go to any salepersons profile (for example: ex. /blue/public/staff/salespeople/show.php?id=9)
 2.	After the link is visited, inject SQL statement ‘ OR 1=1—'
 
 
 
-Vulnerability #2: Session Hijacking Attack
+[x]**Vulnerability #2: Session Hijacking Attack**
 <img src="https://github.com/eddenk/Codepathweek8/blob/master/Session_Hijacking.gif" alt="Session_Hijacking" title="Session_Hijacking" />
-Walkthrough:
+**Walkthrough:**
 1.	An unknown user(attacker) changes the PHPSESSION of the site. (using: https://35.184.88.145/blue/public/hacktools/change_session_id.php)
 2.	When the admin is logged in, attacker is able to steal the session if of the admin using the /hackertool/ and is able to bypass the need for logging in with a username and password.

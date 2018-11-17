@@ -16,7 +16,7 @@ Each version of the site has been given two of the six vulnerabilities.
 
 ## Blue
 **Vulnerability #1: SQL Injection Attack**
- <img src="https://github.com/eddenk/Codepathweek8/blob/master/SQL_Injection.gif" alt="SQL_Injection" title="SQL_Injection" />
+ <img src="https://github.com/eddenk/Codepathweek8/blob/master/SQLi_Attack.gif" alt="SQLi_Attack" title="SQLi_Attack" />
 **Walkthrough:**
 1.	Go to any salepersons profile (for example: ex. /blue/public/staff/salespeople/show.php?id=1)
 2.	After the link is visited, inject SQL statement ‘ into the id query field

@@ -18,8 +18,8 @@ Each version of the site has been given two of the six vulnerabilities.
 **Vulnerability #1: SQL Injection Attack**
  <img src="https://github.com/eddenk/Codepathweek8/blob/master/SQL_Injection.gif" alt="SQL_Injection" title="SQL_Injection" />
 **Walkthrough:**
-1.	Go to any salepersons profile (for example: ex. /blue/public/staff/salespeople/show.php?id=9)
-2.	After the link is visited, inject SQL statement ‘ OR 1=1—'
+1.	Go to any salepersons profile (for example: ex. /blue/public/staff/salespeople/show.php?id=1)
+2.	After the link is visited, inject SQL statement ‘ into the id query field
 
 
 
